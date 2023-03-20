@@ -7,5 +7,5 @@ function parOImpar(numero) {
   }
   
   
-  document.write(parOImpar(4)); 
- document.write(parOImpar(5)); 
+  console.log(parOImpar(4)); 
+ console.log(parOImpar(5)); 

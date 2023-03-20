@@ -1,5 +1,5 @@
 
-let ciudades = [];
+let ciudades = [‘Nueva York,Estados Unidos’, ‘Barcelona, España’,‘Tokio,Japón’,‘Londres,Reino Unido’,‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’];
 
 
 while (true) {
@@ -16,4 +16,4 @@ while (true) {
 }
 
 
-document.write(ciudades);
+console.log(‘Nueva York, Estados Unidos’, ‘Barcelona, España’, ‘Tokio, Japón’, ‘Londres, Reino Unido’, ‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’);

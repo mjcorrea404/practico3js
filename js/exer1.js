@@ -1,8 +1,7 @@
 let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-document.write("<ul>");
+console.log("<ul>");
 
 for (let i = 0; i < meses.length; i++) {
-    document.write("<li>" + meses[i] + "</li>");
+    console.log("<li>" + meses[i] + "</li>");
 }
-
-document.write("</ul>");
+console.log("</ul>");

@@ -11,4 +11,4 @@ for (let i = 0; i < 50; i++) {
   resultados[suma - 2]++;
 }
 
-document.write(resultados); 
+console.log(resultados); 

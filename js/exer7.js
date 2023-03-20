@@ -7,7 +7,7 @@ function crearTablaMultiplicar(num) {
     
     const resultado = num * i;
     
-    document.write(num + "x" + i + " = " + resultado);
+    console.log(num + "x" + i + " = " + resultado);
   }
 }
 
