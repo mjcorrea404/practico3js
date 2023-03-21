@@ -1,19 +1,21 @@
-
-let ciudades = [‘Nueva York,Estados Unidos’, ‘Barcelona, España’,‘Tokio,Japón’,‘Londres,Reino Unido’,‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’];
-
+let ciudades = [];
 
 while (true) {
   let ciudad = prompt("Nombre de la ciudad");
-  
-  
+
   if (ciudad === null || ciudad === "") {
     break;
   }
-  
-  
-  ciudades.push(‘Nueva York, Estados Unidos’, ‘Barcelona, España’, ‘Tokio, Japón’, ‘Londres, Reino Unido’, ‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’);
 
+  ciudades.push(ciudad);
 }
+ciudades.push("paris")
+ciudades[1]="Barcelona"
 
+document.write(`<p>la longitud del arreglo es ${ciudades.length}</p>
+<p>el primer pais es ${ciudades[0]}</p> 
+<p>el segundo pais es ${ciudades[1]}</p>
+<p>el tercer pais es ${ciudades[2]}</p>
+<p>el ultimo pais es ${ciudades[ciudades.length - 1]}</p>
+`);
 
-console.log(‘Nueva York, Estados Unidos’, ‘Barcelona, España’, ‘Tokio, Japón’, ‘Londres, Reino Unido’, ‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’);
